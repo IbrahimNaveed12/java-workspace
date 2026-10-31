@@ -5,12 +5,14 @@ public class EvenOdd
 	{
 		Scanner obj = new Scanner (System.in);
 		System.out.println("Enter an Integer");
+
 		int num = obj.nextInt();
 		 if (num % 2 == 0)
 			System.out.println("EVEN");
 
 		 else
 			System.out.println("ODD");
+
 
 
 	}
